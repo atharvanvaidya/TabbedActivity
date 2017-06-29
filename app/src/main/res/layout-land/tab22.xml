@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="NewApi">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <CalendarView
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:id="@+id/calendarView2"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="363dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView5"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="@android:color/holo_orange_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="320dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
